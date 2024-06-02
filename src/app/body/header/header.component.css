@@ -1,0 +1,14 @@
+header {
+display:  flex;
+align-items: center  !important;
+height: inherit;
+width: initial;
+
+}
+
+.local-header {
+  flex-grow: 5;
+}
+.local-header.avater {
+  flex-grow: 1;
+}
