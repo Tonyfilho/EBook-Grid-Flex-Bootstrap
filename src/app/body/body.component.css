@@ -1,0 +1,34 @@
+#localBody{
+  display: grid;
+  grid-template-areas:
+  'localHeader localHeader localHeader localHeader'
+  'localContent localContent localContent localContent'
+  'localFooter localFooter localFooter localFooter' ;
+
+}
+
+#localHeader {
+  grid-area: localHeader;
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(113, 245, 245);
+}
+
+#localContent {
+  grid-area: localContent;
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(138, 168, 168);
+}
+
+
+#localFooter {
+  grid-area: localFooter;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(30, 102, 102);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
