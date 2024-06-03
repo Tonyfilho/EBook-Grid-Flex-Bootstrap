@@ -1,62 +1,39 @@
-header {
-display:  flex;
-justify-content: space-around;
-align-items: center;
-
-height: 15vh;
-width: 100%;
-
-}
-
-a {
-  color: aliceblue;
-}
-a:hover {
-  color: rgb(131, 190, 241);
-}
-.local-header {
-  flex-basis: 80%;
-  text-decoration: none;
-
-}
-.local-avatar {
-  flex-basis: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card {
+  width: 80vw;
+  height: max-content;
 }
 
 /* Smartphones */
 @media (max-width: 600px) {
-  header>div  {
+  section>div  {
        font-size: 14px !important;
    }
  }
 
  /* Tablets em modo retrato */
  @media (min-width: 601px) and (max-width: 768px) {
-  header>div {
+  section>div {
        font-size: 16px !important;
    }
  }
 
  /* Tablets em modo paisagem e desktops pequenos */
  @media (min-width: 769px) and (max-width: 1024px) {
-  header>div {
+  section>div {
        font-size: 18px !important;
    }
  }
 
  /* Desktops e telas grandes */
  @media (min-width: 1025px) {
-  header>div {
+  section>div {
        font-size: 20px !important;
    }
  }
 
  /* Telas muito grandes */
  @media (min-width: 1440px) {
-  header>div {
+  section>div {
        font-size: 22px !important;
    }
  }
